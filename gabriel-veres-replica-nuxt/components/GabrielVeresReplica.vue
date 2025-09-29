@@ -22,11 +22,11 @@ onMounted(() => {
     canvas: canvas.value,
     antialias: true,
   })
-  renderer.setSize(window.innerWidth, window.innerHeight)
+  renderer.setSize(window.innerWidth, window.innerHeight) 
 
   const group = new THREE.Group()
   const textureLoader = new THREE.TextureLoader()
-  const spacingZ = 200
+  const spacingZ = 200;
 
   const imageNames = [
     'image.png',
